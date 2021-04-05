@@ -284,8 +284,7 @@ joined_dataset[, c("income_med_moe", "income_mean_moe" , "number"):= NULL]
 
 ```
 
-```{r, results='hide'}
-
+```{r, results='hide', warning=FALSE, message=FALSE, comment=FALSE}
 
 saveGIF( 
   for (i in sort(unique(joined_dataset$year))){
@@ -300,10 +299,16 @@ saveGIF(
              caption = 'Data source: US Census Bureau') +
         xlim(-4,4) + ylim(-4,4) +
         geom_text_repel() + theme_wealth()
-      plot(p)
+      print(p)
 }
 )
  
+```
+
+```{r}
+
+![](https://github.com/yurialmeida5/Data_Viz_R_Yuri/blob/a55c9c60a70f9670b7f382b14926d73a5abc491b/HW/HW_Final_Project/animation.gif)
+
 ```
 
 # Conclusion 
