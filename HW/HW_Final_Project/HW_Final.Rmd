@@ -305,15 +305,20 @@ saveGIF(
  
 ```
 
-```{r}
+```{r, echo=FALSE}
 
-![](https://github.com/yurialmeida5/Data_Viz_R_Yuri/blob/a55c9c60a70f9670b7f382b14926d73a5abc491b/HW/HW_Final_Project/animation.gif)
+knitr::include_graphics("D:/CEU/Data_Viz_R/Data_Viz_R_Yuri/HW/HW_Final_Project/final_graph.gif")
 
 ```
 
+The Multidimensional Scaling graph above shows us that the ethnic groups within the past of the years demonstrated some similarities (more specifically between Black and Hispanics in 1998). However,those similarities weren't constant along the years. It's not possible to infer, considering only the social indicators presented in this study, that some particular groups have the same quality life standards than the others and even more than that, those life quality standards remained the same during the past 3 decades.
+
 # Conclusion 
 
-Having a quick look at the graphs, it's possible to observe that although the White people have a considerable better initial stage in all categories (income, retirement savings, etc.) there is no clear conclusion about any sort of discrimination regarding the other ethnic groups. This could be explained due to the similar growth rates observed and social indicators seen into the Hispanic group. Although the difference in absolute values can be significant, there was a really closer improvement observed into the social indicators between White and Hispanics.
+Overall, although White people have a considerable better initial stage in all categories (income, retirement savings, etc.) there is no clear conclusion about any sort of discrimination regarding the other ethnic groups. 
+This could be explained due to the similar growth rates observed into the Hispanic group. Although the difference in absolute values can be significant, there was a really closer improvement observed into the social indicators between those 2 groups.
+Finally, the disparities between those groups are real.And besides the fact that there isn't no strong evidence of discrimination within those ethnic groups, some of them definitely need more attention, in this specific study, the Black Community, not only due to the lower social initial values presented but also regarding their life quality standards improvement rates.
+
 
 
 
